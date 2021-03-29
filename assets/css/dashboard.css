@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    /* max-width: 1366px; */
+    /* margin: auto; */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-side {
+    width: 25%;
+    height: 91vh;
+    background-color: #1687A7;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side .user {
+    margin: 35px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-side .user .lingkaran {
+    width: 125px;
+    height: 125px;
+    background-color: grey;
+    border-radius: 100px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side .user h3 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.left-side .user p {
+    font-size: 1em;
+}
+
+.left-side .menu {
+    width: 100%;
+    height: 100%;
+}
+
+.left-side .menu ul {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.left-side .menu li {
+    text-align: center;
+}
+
+.left-side .menu a {
+    width: 100%;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.left-side .menu a:hover {
+    background-color: #D3E0EA;
+    color: #16C79A;
+}
+
+.left-side .menu a.active {
+    background-color: #D3E0EA;
+    color: #16C79A;
+}
+
+.right-side {
+    width: 75%;
+    height: 100%;
+    background-color: #F6F5F5;
+}
+
+.right-side .header {
+    padding: 0 2%;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 3px 4px 17px rgba(0,0,0,.2);
+}
+
+.right-side .dashboard {
+    height: 81vh;
+    width: 100%;
+    padding: 2%;
+}
+
+.right-side  .dashboard h2 {
+    font-weight: 400;
+}
+
+.right-side .dashboard p {
+    color: #7A7A7A;
+    font-size: .8em;
+}
+
+.right-side .dashboard .laporan {
+    width: 100%;
+    height: 95%;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 3px 4px 17px rgba(0,0,0,.2);
+    margin-top: 15px;
+    padding: 30px;
+}
+
+.right-side .dashboard .laporan .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side .dashboard .laporan .judul {
+    display: inline-block;
+}
+
+.right-side .dashboard .laporan .judul h2 {
+    font-weight: 700;
+}
+
+.right-side  .dashboard .laporan .judul hr {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.right-side .dashboard .laporan .tombol a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #16C79A;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 4px 17px rgba(0,0,0,.2);
+}
+
+.right-side .dashboard .laporan .tombol a:active {
+    box-shadow: none;
+}
+
+.right-side .dashboard .laporan .isi {
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    overflow: auto;
+    text-align: justify;
+}
+
+
+.right-side .laporan .isi:hover {
+    overflow-y: auto;
+}
+
+footer {
+    width: 100%;
+    height: 9vh;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 3px 17px 8px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
