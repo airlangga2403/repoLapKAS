@@ -1,5 +1,5 @@
 # repoLapKAS
 
-[Link to dashboard](https://lapkas.github.io/repoLapKAS/dashboard)
+[Link to dashboard](https://airlangga2403.github.io/repoLapKAS/dashboard)
 
-[Link to login](https://lapkas.github.io/repoLapKAS/login)
+[Link to login](https://airlangga2403.github.io/repoLapKAS/login)
